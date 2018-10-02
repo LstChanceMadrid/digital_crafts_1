@@ -7,6 +7,7 @@ body {
 
 a {
   text-decoration: none;
+  color: tan;
 }
 
   header {
@@ -60,7 +61,11 @@ a {
 
     .main-dragonknight-background {
       background-image: url("images/dragonknight2.jpeg");
+    }
 
+    .main-index-background {
+      background-image: url("images/index.jpeg");
+      height: 20em;
     }
     .classes-container, .skills-container {
       text-align: center;
@@ -118,3 +123,15 @@ a {
         width: 66.66%;
         color: gray;
       }
+
+  .footer {
+    margin-top: 2em;
+    text-align: center;
+    color: tan;
+    padding: 1em;
+  }
+
+    .footer a {
+      padding:0.5em;
+      line-height: 1.5em;
+    }
