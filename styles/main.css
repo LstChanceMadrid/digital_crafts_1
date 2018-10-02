@@ -47,7 +47,7 @@ a {
   }
 
     .main-background {
-      height: 10em;
+      height: 12em;
       background-repeat: no-repeat;
       background-position-x: center;
       width: 100%;
@@ -55,18 +55,45 @@ a {
       position: relative;
     }
 
-    .main-warden-background {
-      background-image: url("images/warden-animals.jpeg");
-    }
-
-    .main-dragonknight-background {
-      background-image: url("images/dragonknight2.jpeg");
-    }
-
+    
     .main-index-background {
       background-image: url("images/index.jpeg");
       height: 20em;
+      background-size: cover;
+
     }
+
+    .main-dragonknight-background {
+      background-image: url("images/dragonknight3.jpeg");
+      background-size: cover;
+      background-position-y: 10%;
+    }
+
+    .main-nightblade-background {
+      background-image: url("images/nightblade2.jpeg");
+      background-position-y: 15%;
+      background-size: cover;
+    }
+
+    .main-sorcerer-background {
+      background-image: url("images/sorcerer.jpeg");
+      background-size: cover;
+      background-position-y: 5%;
+    }
+
+    .main-templar-background {
+      background-image: url("images/templar.jpeg");
+      background-size: cover;
+      background-position-y: 8%;
+
+    }
+
+    .main-warden-background {
+      background-image: url("images/warden3.jpeg");
+      background-size: cover;
+      background-position-y: 20%;
+    }
+
     .classes-container, .skills-container {
       text-align: center;
       color: tan;
@@ -109,19 +136,21 @@ a {
         display: flex;
         flex-wrap: wrap;
         color: gray;
+        
       }
 
       .skill-name {
         font-weight: bold;
         text-align: center;
-        width: 33.33%;
+        width: 33%;
         color:gray;
       }
 
       .skill-description {
         text-align: center;
-        width: 66.66%;
+        width: 66%;
         color: gray;
+
       }
 
   .footer {

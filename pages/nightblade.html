@@ -21,88 +21,77 @@
     </header>
 
     <section class="main">
-        <div class="main-warden-background"></div>
+        <div class="main-background main-nightblade-background"></div>
         
         <div class="skills-container">
             <h2 class="">Skills</h2>
 
             <div class="skills">
-                <div id="aC" onClick="activate('animalCompanions', 'greenBalance', 'wintersEmbrace'), active('aC', 'gB', 'wE')" class="skill" style="background: rgba(50, 50, 50, 1);">Animal Companions</div>
+                <div id="aS" onClick="activate('assassination', 'shadow', 'siphoning'), active('aS', 'sH', 'sI')" class="skill" style="background: rgba(50, 50, 50, 1);">Assassination</div>
                 
-                <div id="gB" onClick="activate('greenBalance', 'animalCompanions', 'wintersEmbrace'), active('gB', 'aC', 'wE')" class="skill">Green Balance</div>
+                <div id="sH" onClick="activate('shadow', 'assassination', 'siphoning'), active('sH', 'aS', 'sI')" class="skill">Shadow</div>
                 
-                <div id="wE" onClick="activate('wintersEmbrace', 'animalCompanions', 'greenBalance', ), active('wE', 'aC', 'gB')" class="skill">Winter's Embrace</div>
+                <div id="sI" onClick="activate('siphoning', 'assassination', 'shadow', ), active('sI', 'aS', 'sH')" class="skill">Siphoning</div>
             </div>
         </div>
         
-        <div id="animalCompanions" class="skill-list" style="display:block;">
+        <div id="assassination" class="skill-list" style="display:block;">
             <div class="skill-active">
-                <h3 class="skill-name">Feral Guardian</h3>
+                <h3 class="skill-name">Death Stroke</h3>
                 
-                <p class="skill-description">You raise a big bear</p>
+                <p class="skill-description">You slice the target with two blades.</p>
             </div>
             
             <div class="skill-active">
-                <h3 class="skill-name">Swarm</h3>
+                <h3 class="skill-name">Teleportation Strike</h3>
                 
-                <p class="skill-description">You throw bugs at people</p>
+                <p class="skill-description">You teleport to the target and cut him.</p>
             </div>
             
             <div class="skill-active">
-                <h3 class="skill-name">Betty Netch</h3>
+                <h3 class="skill-name">Blur</h3>
                 
-                <p class="skill-description">You summon a jellyfish that follows you</p>
+                <p class="skill-description">You make yourself blurry so people have a hard time hitting you.</p>
             </div>
         </div>
 
-            
-
-
-
-
-
-        <div id="greenBalance" class="skill-list">
+        <div id="shadow" class="skill-list">
             <div class="skill-active">
-                <h3 class="skill-name">Secluded Grove</h3>
+                <h3 class="skill-name">Consuming Darkness</h3>
                     
-                <p class="skill-description">You grow trees and they heal people somehow</p>
+                <p class="skill-description">You drop a big circle on the ground that protects you and hurts others.</p>
             </div>
                 
             <div class="skill-active">
-                <h3 class="skill-name">Fungal Growth</h3>
+                <h3 class="skill-name">Shadow Cloak</h3>
                     
-                <p class="skill-description">You grow mushrooms and they heal people somehow</p>
+                <p class="skill-description">You turn invisible.</p>
             </div>
                 
             <div class="skill-active">
-                <h3 class="skill-name">Lotus Flower</h3>
+                <h3 class="skill-name">Aspect of Terror</h3>
                     
-                <p class="skill-description">You grow flowers and they, too, heal people in a way that I can't explain</p>
+                <p class="skill-description">You throw spirits around you that makes people scared and run away.</p>
             </div>
         </div>
 
-
-
-
-
-
-        <div id="wintersEmbrace" class="skill-list">
+        <div id="siphoning" class="skill-list">
             <div class="skill-active">
-                <h3 class="skill-name">Sleet Storm</h3>
+                <h3 class="skill-name">Soul Shred</h3>
                         
-                <p class="skill-description">You make it really cold around you</p>
+                <p class="skill-description">You throw a rune at a person and do damage to their soul.</p>
             </div>
                     
             <div class="skill-active">
-                <h3 class="skill-name">Impaling Shards</h3>
+                <h3 class="skill-name">Strife</h3>
                         
-                <p class="skill-description">You shoot at people with icicles</p>
+                <p class="skill-description">You steal a persons lifeforce and heal yourself with it.</p>
             </div>
                     
             <div class="skill-active">
-                <h3 class="skill-name">Crystalized Shield</h3>
+                <h3 class="skill-name">Cripple</h3>
                         
-                <p class="skill-description">You make a shield out of ice</p>
+                <p class="skill-description">You hit the person and they become slow.</p>
             </div>
         </div>
     </section>
