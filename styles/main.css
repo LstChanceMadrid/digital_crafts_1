@@ -45,8 +45,7 @@ a {
     margin: 0 auto;
   }
 
-    .main-warden-background {
-      background-image: url("images/warden-animals.jpeg");
+    .main-background {
       height: 10em;
       background-repeat: no-repeat;
       background-position-x: center;
@@ -55,6 +54,14 @@ a {
       position: relative;
     }
 
+    .main-warden-background {
+      background-image: url("images/warden-animals.jpeg");
+    }
+
+    .main-dragonknight-background {
+      background-image: url("images/dragonknight2.jpeg");
+
+    }
     .classes-container, .skills-container {
       text-align: center;
       color: tan;
@@ -101,11 +108,13 @@ a {
 
       .skill-name {
         font-weight: bold;
+        text-align: center;
         width: 33.33%;
         color:gray;
       }
 
       .skill-description {
+        text-align: center;
         width: 66.66%;
         color: gray;
       }

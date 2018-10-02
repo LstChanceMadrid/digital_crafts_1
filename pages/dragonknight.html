@@ -6,44 +6,113 @@
     <title>Dragonknight</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="../styles/main.css" />
+    <script type="text/javascript" src="../scripts/main.js"></script>
     
 </head>
 <body>  
     <header>
         <div class="header-scroll">
-                <a href="../index.html" class="home">Home</a>
+            <a href="../index.html" class="home">Home</a>
+            
             <div class="header-title">
-                
                 <h1 class="page-title">Dragonknight</h1>
             </div>
         </div>
     </header>
 
     <section class="main">
+        <div class="main-background main-dragonknight-background"></div>
+        
         <div class="skills-container">
             <h2 class="">Skills</h2>
 
             <div class="skills">
-                <a href="ardent-flame.html"><div class="skill">Ardent Flame</div></a>
+                <div id="aF" onClick="activate('ardentFlame', 'draconicPower', 'earthenHeart'), active('aF', 'dP', 'eH')" class="skill" style="background: rgba(50, 50, 50, 1);">Ardent Flame</div>
                 
-                <a href="nightblade.html"><div class="skill">Nightblade</div></a>
+                <div id="dP" onClick="activate('draconicPower', 'ardentFlame', 'earthenHeart'), active('dP', 'aF', 'eH')" class="skill">Draconic Power</div>
                 
-                <a href="sorcerer.html"><div class="skill">Sorcerer</div></a>
-                
-                
+                <div id="eH" onClick="activate('earthenHeart', 'ardentFlame', 'draconicPower', ), active('eH', 'aF', 'dP')" class="skill">Earthren Heart</div>
             </div>
-        <div>
-
+        </div>
         
+        <div id="ardentFlame" class="skill-list" style="display:block;">
+            <div class="skill-active">
+                <h3 class="skill-name">Dragonknight Standard</h3>
+                
+                <p class="skill-description">Summon a flag that burns nearby people and makes you stronger.</p>
+            </div>
+            
+            <div class="skill-active">
+                <h3 class="skill-name">Lava Whip</h3>
+                
+                <p class="skill-description">It's a whip made of lava. 'Nough said.</p>
+            </div>
+            
+            <div class="skill-active">
+                <h3 class="skill-name">Fiery Grip</h3>
+                
+                <p class="skill-description">A chian that that grasps and pulls enemies to you.</p>
+            </div>
+        </div>
+
+            
 
 
+
+
+
+        <div id="draconicPower" class="skill-list">
+            <div class="skill-active">
+                <h3 class="skill-name">Dragon Leap</h3>
+                    
+                <p class="skill-description">Jump really far and hit people.</p>
+            </div>
+                
+            <div class="skill-active">
+                <h3 class="skill-name">Dark Talons</h3>
+                    
+                <p class="skill-description">You summon dragon claws from the ground that hold people in place</p>
+            </div>
+                
+            <div class="skill-active">
+                <h3 class="skill-name">Dragon Blood</h3>
+                    
+                <p class="skill-description">You grunt and then you magically heal yourself.</p>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div id="earthenHeart" class="skill-list">
+            <div class="skill-active">
+                <h3 class="skill-name">Magma Armor</h3>
+                        
+                <p class="skill-description">Turns you into a combination of Superman and Jesus.</p>
+            </div>
+                    
+            <div class="skill-active">
+                <h3 class="skill-name">Obsidian Shield</h3>
+                        
+                <p class="skill-description">You stomp the ground and pieces of rock come up and protect you.</p>
+            </div>
+                    
+            <div class="skill-active">
+                <h3 class="skill-name">Ash Cloud</h3>
+                        
+                <p class="skill-description">You stomp the ground again and an ash cloud appears that heals people somehow</p>
+            </div>
+        </div>
     </section>
 
     <footer>
+        class
     </footer>
     
 </body>
 
-<script src="../scripts/main.js"></script>
+
 
 </html>
